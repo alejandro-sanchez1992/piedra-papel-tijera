@@ -10,7 +10,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
   templateUrl: './app.component.html'
 })
 export class App {
-  name = 'Angular';
+  name = 'Juego Piedra, Papel, Tijera';
 
   resultado: string;
   puntosUsuario = 0;
