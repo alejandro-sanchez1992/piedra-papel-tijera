@@ -10,7 +10,6 @@
 
 .info-game {
   background-color: transparent;
-  color: white;
   font-size: 24px;
 }
 
@@ -71,11 +70,11 @@
 #user-label {
   position: absolute;
   top: 28px;
-  left: -30px;
+  left: -104px;
 }
 
 #comp-label {
   position: absolute;
   top: 28px;
-  right: -75px;
+  right: -150px;
 }

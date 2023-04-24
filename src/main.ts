@@ -16,6 +16,7 @@ export class App {
   resultado: string;
   puntosUsuario = 0;
   puntosComputadora = 0;
+  seleccion: string;
 
   constructor(private playGame: GameService) {}
 
@@ -25,6 +26,7 @@ export class App {
 
   play(choice: string): void {
     const result = this.playGame.game(choice);
+    this.seleccion = result.compOption;
     this.resultado = result.message;
     this.puntosUsuario += result.userAdd;
     this.puntosComputadora += result.compAdd;
